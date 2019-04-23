@@ -1,0 +1,29 @@
+baseurl = ""
+title = "chuanMing"
+theme = "hugo-theme-vec"
+languageCode = "en-us"
+paginate = 10
+disqusShortname = ""
+googleAnalytics = ""
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "post"
+    weight = 0
+  [[menu.main]]
+    name = "contact"
+    weight = 1
+    url = "/contact"
+
+
+[params]
+  Keywords = "key, 关键字, キーワード"
+  Description = "There are some words to describe your site"
+  Avatar = "img/avatar.jpg"
+  SelfIntro = "A place for Finance and Coding..."
+  Email = "xyz556667@gmail.com"
+
+  GithubID = "xyz556667"
+  FacebookID = "xyz556667"
+  LinkedInID = "xyz556667"
